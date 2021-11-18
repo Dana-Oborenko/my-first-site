@@ -1,18 +1,19 @@
 <html>
     <head>
         <title> school website </title>
-        <link rel="stylesheet" href="css/index.css">
+        <link rel="stylesheet" href="css/flexboxgrid.css" type="text/css">
+        <link rel="stylesheet" href="css/index.css" type="text/css">
     </head>
     <body>
         <header class="header">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-2">
+                    <div class="col-lg-2">
                         <img src="images/117584540-the-letter-v-of-the-english-alphabet-of-leaves-of-green-plants-in-a-white-paper-stencil.jpg" width="100px" hight="100px" alt="Vegan"/>
                     </div>
-                    <div class="col-xs-2">
-                        <div class="row end-xs">
-                            <div class="col-xs-12">
+                    <div class="col-lg-10">
+                        <div class="row end-lg">
+                            <div class="col-lg-12">
                                 <form action="" class="search__form">
                                     <div class="search">
                                       <input type="text" placeholder="Meklēt" class="search__input">
@@ -24,7 +25,7 @@
                             </div>
                         </div>
                         <div class="row">
-                            <div class="col-xs-12">
+                            <div class="col-lg-12">
                                 <nav class="nav">
                                     <a href="" class="nav__item">
                                         Sākums
@@ -43,29 +44,29 @@
                 </div>
             </div>
         </header>
-
-        <section>
+        <section class="first">
             <div class="container">
                 <div class="hero">
-                <div class="row">
-                    <div class="col-xs-6 col-xs-offset-1">
-                        <div class="hero__content">
-                        <h1>Vegan dzīve</h1>
-                        <p>
-                            Vegānisms ir filozofiska nostāja un dzīvesveids, kura atbalstītāji cenšas neizmantot dzīvniekus pārtikai, apģērbam, izklaidei vai citiem nolūkiem. Vegāni izvairās no jebkāda veida dzīvnieku izcelsmes produktu lietošanas. Visbiežākie šādas izvēles iemesli ir ētiski apsvērumi saistībā ar dzīvnieku tiesībām vai labturību, apkārtējo vidi un veselību, kā arī garīgi un reliģiski apsvērumi.
-                        </p>
-                        <div class="hero__button-wrapper">
-                        <a href="#" class="hero__button">
-                            Lasīt vairāk
-                        </a>
-                        <a href="#" class="hero__button">
-                            Lasīt vairāk
-                        </a>
-                        </div>
-                       </div> 
-                      </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-lg-offset-1">
+                            <div class="hero__content">
+                                <h1 class="name">Vegan dzīve</h1>
+                                <p>
+                                    Vegānisms ir filozofiska nostāja un dzīvesveids, kura atbalstītāji cenšas neizmantot dzīvniekus pārtikai, apģērbam, izklaidei vai citiem nolūkiem. Vegāni izvairās no jebkāda veida dzīvnieku izcelsmes produktu lietošanas. Visbiežākie šādas izvēles iemesli ir ētiski apsvērumi saistībā ar dzīvnieku tiesībām vai labturību, apkārtējo vidi un veselību, kā arī garīgi un reliģiski apsvērumi.
+                                </p>
+                            <div class="hero__button_wrapper">
+                                <a href="#" class="hero__button">
+                                    Lasīt vairāk
+                                </a>
+                                <a href="#" class="hero__button">
+                                    Pietikties
+                                </a>
+                            </div>
+                        </div> 
                     </div>
-                  <div class="hero__overlay"></div>
+                </div>
+                <div class="hero__overlay">
+
                 </div>
             </div>
         </section>
@@ -73,48 +74,48 @@
         <section class="new">
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-4">
+                    <div class="col-lg-4">
                         <div class="new__item">
-                          <img src="images/breakfast vegan.jpg" width="250px" height="250px" alt="breakfast"/>
-                          <h3>
-                             Breakfast --> Avocado toast 
-                          </h3>
+                            <img src="images/breakfast vegan.jpg" width="250px" height="250px" alt="breakfast"/>
+                            <h3>
+                                Breakfast --> Avocado toast 
+                            </h3>
 
-                          <div class="news__read-more-wrapper">
-                          <a href="#" class="news__read-more">
-                              Lasīt vairāk
-                          </a>
-                        </div>
+                            <div class="news__read-more-wrapper">
+                                <a href="#" class="news__read-more">
+                                    Lasīt vairāk
+                                </a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-xs-4">
+                    <div class="col-lg-4">
                         <div class="new__item">
-                          <img src="images/vegan lunch.png" width="250px" height="250px" alt="lunch"/>
-                          <h3>
-                             Vegan lunch
-                          </h3>
+                            <img src="images/vegan lunch.png" width="250px" height="250px" alt="lunch"/>
+                            <h3>
+                                Vegan lunch
+                            </h3>
 
-                          <div class="news__read-more-wrapper">
-                          <a href="#" class="news__read-more">
-                              Lasīt vairāk
-                          </a>
-                        </div>
+                            <div class="news__read-more-wrapper">
+                                <a href="#" class="news__read-more">
+                                    Lasīt vairāk
+                                </a>
+                            </div>
                         </div>
                     </div>
 
-                    <div class="col-xs-4">
+                    <div class="col-lg-4">
                         <div class="new__item">
-                          <img src="images/vegan desert.jpg" width="250px" height="250px" alt="desert"/>
-                          <h3>
-                             Vegan desert --> cupcakes 
-                          </h3>
+                            <img src="images/vegan desert.jpg" width="250px" height="250px" alt="desert"/>
+                            <h3>
+                                Vegan desert --> cupcakes 
+                            </h3>
 
-                          <div class="news__read-more-wrapper">
-                          <a href="#" class="news__read-more">
-                              Lasīt vairāk
-                          </a>
-                        </div>
+                            <div class="news__read-more-wrapper">
+                                <a href="#" class="news__read-more">
+                                    Lasīt vairāk
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -123,15 +124,15 @@
 
         <section class="banner">
             <div class="container">
-                <div class="row-center-xs">
-                    <div class="col-xs-12">
+                <div class="row-center-lg">
+                    <div class="col-lg-12">
                         <h1>
                             Recepšu grāmata
                         </h1>
                     </div>
                 </div>
-                <div class="row-center-xs">
-                    <div class="col-xs-12">
+                <div class="row-center-lg">
+                    <div class="col-lg-12">
                         <a href="" class="hero__button">
                             pirkts
                         </a>
@@ -146,15 +147,15 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-xs-12">
+                    <div class="col-lg-12">
                         <div class="slider">
-                            <span class="slider__prev"> <- </span>
-                            <span class="slider__next"> -> </span>
-                            <img src="images/vegan .jpg" width="650px" height="450px" alt="food" class="slider__image">
+                            <span class="slider__prev"> &lt; </span>
+                            <img src="images/vegan .jpg" height="400px" alt="food" class="slider__image">
+                            <span class="slider__next"> &gt; </span>
                             <div class="slider__dots">
-                                <span calss="slider__dot"></span>
-                                <span calss="slider__dot active"></span>
-                                <span calss="slider__dot"></span>
+                                <span class="slider__dot"></span>
+                                <span class="slider__dot active"></span>
+                                <span class="slider__dot"></span>
                             </div>
                         
                         </div>
@@ -162,5 +163,68 @@
                 </div>
             </div>
         </section>
+
+        <section class="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="name_2">Nepieciešams:</h1>
+                        <p>
+                            Jebkurš nesabalansēts, neveselīgs uzturs var izraisīt veselības problēmas. Plānošana un līdzsvars ir svarīgi pat vegānu uzturā.
+                        </p>
+                        <ul class="content_list">
+                            <li>Daļa no diētas, lai ņemtu dažādus dārzeņus un augļus.</li>
+                            <li>ceturtdaļu vajadzētu aizņemt cieti saturošiem ogļhidrātiem: tie ir kartupeļi, graudaugi un miltu izstrādājumi.</li>
+                            <li>Jābūt proteīna pārtikai: riekstiem, sēklām, pākšaugiem. Tas ietver arī pārtiku ar augstu olbaltumvielu saturu: sojas gaļu, seitānu, tofu.</li>
+                            <li>Un arī vitamīni ir jāuzņem:</li>
+                        </ul>
+                        <table class="content__table">
+                            <tr>
+                                <th>B12</th>
+                                <th>C</th>
+                                <th>D3</th>
+                            </tr>
+                            <tr>
+                                <td>Magnijs</td>
+                                <td>Cinks</td>
+                                <td>Neem</td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer clas="footer">
+            <div class="container">
+                <div class="row middle-lg">
+                    <div class="col-lg-3">
+                        <img src="images/117584540-the-letter-v-of-the-english-alphabet-of-leaves-of-green-plants-in-a-white-paper-stencil.jpg" width="100px" hight="100px" alt="Vegan"/>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Kontakti:</h3>
+                        <span><b>E-pasts:</b> vegan.dzīve@inbox.lv</span>
+                        <br>
+                        <span><b>tel:</b>+371 24590032</span>
+                    </div>
+                    <div class="col-lg-3">
+                        <h3>Navigācija</h3>
+                        <a href="#">Sākums</a> <br>
+                        <a href="#">Par mums</a> <br>
+                        <a href="#">Kontakti</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <div class="copyright">
+            <div class="container">
+                <div class="row center-lg">
+                    <div class="col-lg-12">
+                        Izstrādāja Dana Oborenko
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
