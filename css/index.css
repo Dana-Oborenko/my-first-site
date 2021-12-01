@@ -240,6 +240,14 @@ p{
     padding: 30px;
 }
 
+.image{
+    display: none;
+}
+
+.image.active{
+    display: block;
+}
+
 .footer{
     padding: 10px 0 25px 0;
     background-color: rgb(135, 207, 135);
