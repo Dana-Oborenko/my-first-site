@@ -240,11 +240,11 @@ p{
     padding: 30px;
 }
 
-.image{
+.slider__image, .image{
     display: none;
 }
 
-.image.active{
+.slider__image.active, .image.active{
     display: block;
 }
 
