@@ -31,7 +31,7 @@ prev.addEventListener('click', () =>{
     images[activeIndex].classList.add('active')
 })
 
-images = document.querySelectorAll('.js-image')
+/*images = document.querySelectorAll('.js-image')
 next = document.querySelector('.js-next')
 prev = document.querySelector('.js-prev')
 
@@ -61,4 +61,4 @@ prev.addEventListener('click', () =>{
     }
 
     images[activeIndex].classList.add('active')
-})
+})*/

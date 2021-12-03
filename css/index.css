@@ -240,12 +240,34 @@ p{
     padding: 30px;
 }
 
+.image, .image.active{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
 .slider__image, .image{
     display: none;
 }
 
 .slider__image.active, .image.active{
     display: block;
+}
+
+.js-prev, .js-next{
+    margin-left: 25px;
+    margin-bottom: 2cm;
+    text-decoration: none;
+    background-color: rgb(101, 139, 101);
+    color: white;
+    border-radius: 5px;
+    display: inline-block;
+    height: 35px;
+    width: 130px;
+}
+
+.js-prev:hover, .js-next:hover{
+    transition: opacity 0.2s;
+    opacity: 0.75;
 }
 
 .footer{
