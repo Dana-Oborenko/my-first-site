@@ -2,11 +2,13 @@
     box-sizing: border-box;
 }
 
+/*
 .body{
     padding-top: 74px;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
+*/
 
 .header{
     padding: 10px 0;
@@ -89,13 +91,13 @@
 }
 
 .hero__button{
+    display: inline-block;
     margin: 0 10px;
     text-decoration: none;
     background-color: rgb(101, 139, 101);
     color: white;
     padding: 10px 25px;
     border-radius: 5px;
-    display: inline-block;
 }
 
 .hero__button:first-child{
@@ -161,7 +163,9 @@ p{
 }
 
 .slider__image{
+    width: 600px;
     height: 500px;
+    object-fit: cover;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -183,11 +187,11 @@ p{
 }
 
 .slider__prev{
-    left: 12em;
+    left: 12.5em;
 }
 
 .slider__next{
-    right: -34em;
+    right: -33.7em;
 }
 
 .slider__dots{
@@ -220,7 +224,7 @@ p{
     color: black;
 }
 
-.name_2{
+.name_2, .name_3 {
     padding-left: 25px;
 }
 
@@ -270,6 +274,14 @@ p{
     opacity: 0.75;
 }
 
+#comment-row{
+    padding: 0px 5px 0px 25px;
+}
+
+hr{
+    margin-bottom: 25px;
+}
+
 .comment{
     margin-bottom: 20px;
 }
@@ -280,9 +292,11 @@ p{
 
 .email{
     font-style: italic;
+    padding-left: 25px;
+    line-height: 35px;
 }
 
-.text{
+.body{
     margin: 0;
 }
 
@@ -296,4 +310,15 @@ p{
     padding: 10px 0;
     color: white;
     text-align: center;
+}
+
+#go-to-top{
+    display: none;
+    position: fixed;
+    cursor: pointer;
+    bottom: 46.5px;
+    right: 40px;
+    z-index: 99;
+    outline: none;
+    border: none;
 }
